@@ -1,0 +1,71 @@
+:root {
+  --accent-color:#1A3E3E;
+  --color-order:#18121E;
+  --color-bg1:#fff;
+  --color-bg2:#F3F5F4;
+  --color-second:#fdfdfd;
+  --font-color-subtitle:#F2BE22;
+  --font-base: "Nunito Sans", serif;
+}
+
+html {
+  color: var(--color-order);
+  scroll-behavior: smooth;
+  font-family: var(--font-base);
+  font-size: 14px;
+}
+html *,
+html *::after,
+html *::before {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1210px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 36px;
+  color: var(--color-bg1);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.2%;
+  line-height: 20px;
+  border: 1px solid var(--accent-color);
+  transition: all 0.6s;
+}
+.btn:hover {
+  background-color: transparent;
+  color: var(--accent-color);
+}/*# sourceMappingURL=general.css.map */
